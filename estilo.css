@@ -58,7 +58,7 @@ nav ul li a {
   font-size: 25px
 }
 
-/* From uiverse.io by @meermubashar */
+
 .boton{
  width: 140px;
  height: 45px;
@@ -119,21 +119,22 @@ text-decoration: none;
 }
 .cabeceraHijo h1{
   font-family:'Permanent Marker', cursive;
-  color: rgb(227, 191, 242);
+  color:rgb(185, 190, 185);
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 100px;
-  text-shadow: -4px 3px 0 rgb(144, 88, 224),50px 50px 50px rgba(95, 97, 87, 0.29);
+  font-size: 80px;
+  text-shadow: -2px 3px 0 black;
 }
 .cabeceraHijo h2{
   font-family:'Permanent Marker', cursive;
-  color: rgb(227, 191, 242);
+  /* color: rgb(227, 191, 242); */
+  color: rgb(185, 190, 185);
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 30px;
-  text-shadow: -4px 3px 0 rgb(144, 88, 224);
+  text-shadow: -2px 3px 0 black;
 }
 /*bio*/
 .bio{
@@ -152,7 +153,7 @@ text-decoration: none;
   width:300px;
     height:300px;
     border-radius:150px;
-    border:3px solid #666;
+    border:1px solid #666;
 }
 .bioTexto{
   text-align: center,justify;
@@ -217,52 +218,8 @@ text-decoration: none;
   background-size:contain;
   background: black
 }
+
 .contenidoSlider:nth-child(5){
-  background-image: url(/imagenes/slider/img055.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size:contain;
-  background: black
-}
-.contenidoSlider:nth-child(6){
-  background-image: url(/imagenes/slider/img058.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size:contain;
-}
-.contenidoSlider:nth-child(7){
-  background-image: url(/imagenes/slider/img059.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size:contain;
-}
-.contenidoSlider:nth-child(8){
-  background-image: url(/imagenes/slider/img049.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size:contain;
-}
-.contenidoSlider:nth-child(9){
-  background-image: url(/imagenes/slider/img050.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size:contain;
-  background: black
-}
-.contenidoSlider:nth-child(10){
-  background-image: url(/imagenes/slider/img053.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size:contain;
-  background: black
-}
-.contenidoSlider:nth-child(11){
   background-image: url(/imagenes/slider/img070.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -274,9 +231,7 @@ text-decoration: none;
   background: rgba(255,255,255,0.3);
   display: flex;
   justify-content:flex-start;
-  /* padding-right: 3%; */
-  padding: 2% 3% 1% 1%;
-  margin: 0% 30% 0% 0%
+
 }
 .contenidoSlider h2{
   width:70%;
@@ -285,6 +240,4 @@ text-decoration: none;
   font-weight:bolder;
   text-align: justify;
   line-height: 30px;
-  text-shadow: -1px -1px 0px #bb00004d, 1px 1px 0px rgba(0, 255, 255,0.1);
-
 }
