@@ -187,7 +187,7 @@ text-decoration: none;
    justify-content: flex-end;
   align-items: flex-end;
   flex-shrink: 0;
-  background-image: url(/imagenes/slider/img070.jpg);
+  background-image: url(/imagenes/slider/muestraC.jpeg);
   background-position:top;
   background-repeat:no-repeat;
   background-attachment:scroll;
@@ -195,7 +195,7 @@ text-decoration: none;
   background: black
 }
 .contenidoSlider:nth-child(2){
-  background-image: url(/imagenes/slider/img071.jpg);
+  background-image: url(/imagenes/slider/muestraCa.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment:scroll;
@@ -203,7 +203,7 @@ text-decoration: none;
   background-color: black
 }
 .contenidoSlider:nth-child(3){
-  background-image: url(/imagenes/slider/img073.jpg);
+  background-image: url(/imagenes/slider/muestraCar.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -211,7 +211,7 @@ text-decoration: none;
   background: black
 }
 .contenidoSlider:nth-child(4){
-  background-image: url(/imagenes/slider/img054.jpg);
+  background-image: url(/imagenes/slider/MuestraCara.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -220,7 +220,7 @@ text-decoration: none;
 }
 
 .contenidoSlider:nth-child(5){
-  background-image: url(/imagenes/slider/img070.jpg);
+  background-image: url(/imagenes/slider/muestraC.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
