@@ -20,7 +20,7 @@ setInterval(()=>{
 const slides=()=>{
 
     slider.style.transform = "translate("+(-width*contador)+"px)";
-    slider.style.transition = "transform 1s";
+    slider.style.transition = "transform 2s";
     contador++;
 
     if(contador == imgSlider.length){
