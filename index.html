@@ -17,9 +17,9 @@
           <p>Roberto Vecchi</p>
         </div>
         <ul class="col-lg-9">
-          <li><a class="boton" href="#">inicio</a></li>
-          <li><a class="boton" href="#">galeria</a></li>
-          <li><a class="boton" href="#">Contacto</a></li>
+          <li><a class="boton" href="#bio">biografia</a></li>
+          <li><a class="boton" href="#galeria">galeria</a></li>
+          <li><a class="boton" href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </section>
@@ -31,14 +31,18 @@
         <h1>Roberto Vecchi.</h1>
         <h2>Artista plastico</h2>
       </div>
+
     </div>
 
-    <div class="bio">
+    <section class="bio" id="1">
+      <a name="bio"></a>
+
       <div class="bioHijo row">
         <div class="bioImagen col-lg-5">
           <img src="imagenes/robert.jpeg" alt="">
         </div>
         <div class="bioTexto col-lg-7">
+
           <h2>Roberto Vecchi</h2>
           <p>
             Nací en Olavarria, Prov de Bs As en 1986, me autopercibo cordobes,
@@ -53,7 +57,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="carrusel">
       <h3>Museo Provincial de Bellas Artes Emilio Caraffa 2022</h3>
@@ -96,42 +100,45 @@
         </div>
       </div>
     </div>
-    <div class="galeria">
-      <h2>galeria</h2>
-      <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <img src="imagenes/galeria/tipo1_2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+    <section id="2">
+      <div class="galeria">
+        <a name="galeria"></a>
+        <h2>AJENO</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="imagenes/galeria/tipo1_2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
 
-          <img src="imagenes/galeria/tipo2_1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+            <img src="imagenes/galeria/tipo2_1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="imagenes/galeria/tipo1_1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+
+            <img src="imagenes/galeria/tipo1_3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="imagenes/galeria/tipo2_2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+
+            <img src="imagenes/galeria/tipo1_4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="imagenes/galeria/tipo2_3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+
+            <img src="imagenes/galeria/tipo1_5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="imagenes/galeria/tipo1_1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+
+            <img src="imagenes/galeria/tipo1_3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Roberto Vecchi" />
+          </div>
+
         </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img src="imagenes/galeria/tipo1_1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
-
-          <img src="imagenes/galeria/tipo1_3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img src="imagenes/galeria/tipo2_2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
-
-          <img src="imagenes/galeria/tipo1_4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
-        </div>
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <img src="imagenes/galeria/tipo2_3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-
-          <img src="imagenes/galeria/tipo1_5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
-
-        </div>
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img src="imagenes/galeria/tipo1_1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
-
-          <img src="imagenes/galeria/tipo1_3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-        </div>
-
       </div>
-    </div>
-
-    <div class="contacto">
+    </section>
+    <section class="contacto" id="3">
+      <a name="contacto"></a>
       <div class="containerForm">
         <form id="contacto" action="" method="post">
           <h3>Contacto</h3>
@@ -153,10 +160,11 @@
         </form>
       </div>
       <div class="contactoLateral">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
 
-    </div>
+    </section>
 
   </main>
   <footer>
